@@ -1,5 +1,10 @@
 Main building blocks and element types in Jmeter
 
+🔹 Test Plan
+What it is: The root of your JMeter project. Think of it as the container that holds everything.
+Use: Defines the overall structure of your test — includes thread groups, logic controllers, config elements, etc.
+Extra: You can set variables and configure test-wide settings here.
+
 🔹 Thread Groups
 What it is: Represents a group of virtual users (threads).
 Use: Specifies the number of users, how often they send requests, and how long the test should run.
